@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;fr.voxilud.admin.Biographie.personnage&apos; in &apos;fr.voxilud.admin.Biographie&apos;&#x0A;- Original project: &apos;Voxilud-06-01&apos;&#x0A;- Original element: &apos;fr.voxilud.admin.Biographie.personnage&apos;&#x0A;- Getter method name: &apos;getPersonnage&apos;&#x0A;- Setter method name: &apos;setPersonnage&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;personnage&apos;" flags="589830" getter="getPersonnage" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;fr.voxilud.admin{Biographie.java[Biographie^personnage" insertion="-1" setter="setPersonnage" stamp="1648115014675" version="1.0" visibility="1"/>
+</session>

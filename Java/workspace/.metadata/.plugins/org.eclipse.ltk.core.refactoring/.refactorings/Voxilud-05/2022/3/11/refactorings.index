@@ -1,0 +1,13 @@
+1647504481088	Encapsulate field 'idAuteurs'
+1647504486595	Encapsulate field 'nom'
+1647504494914	Encapsulate field 'prenom'
+1647504875531	Encapsulate field 'idOeuvre'
+1647504880566	Encapsulate field 'titre'
+1647504887253	Encapsulate field 'auteur'
+1647505173988	Delete element
+1647505273582	Encapsulate field 'idAudio'
+1647505278427	Encapsulate field 'langue'
+1647505282165	Encapsulate field 'oeuvre'
+1647505666680	Encapsulate field 'idEcoute'
+1647505702940	Encapsulate field 'date'
+1647505744831	Encapsulate field 'audio'
