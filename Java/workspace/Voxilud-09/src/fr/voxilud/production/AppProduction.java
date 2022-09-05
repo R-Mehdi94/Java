@@ -129,7 +129,6 @@ public class AppProduction {
 		
 		System.out.println(test);
 		
-		test.getMaxAudio();
 		
 
 	}
