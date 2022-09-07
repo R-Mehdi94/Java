@@ -1,21 +1,23 @@
 package dk.ns.series;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Role {
 	
 	private String nom;
 	private String prenom;
-	private int idSerie;
-	private int idActeur;
+	private List<Serie> series = new ArrayList<Serie>() ;
+	private Acteur acteur;
 	
-	public Role(String nom, String prenom, int idSerie, int idActeur) {
+	public Role(String nom, String prenom, Acteur acteur) {
 		this.nom = nom;
 		this.prenom = prenom;
-		this.idSerie = idSerie;
-		this.idActeur = idActeur;
+		this.acteur = acteur;
 	}
 
 	public String toString() {
-		return "Role [nom=" + nom + ", prenom=" + prenom + ", idSerie=" + idSerie + ", idActeur=" + idActeur + "]";
+		return "Role [nom=" + nom + ", prenom=" + prenom + ", Serie=" + series + ", Acteur=" + acteur + "]";
 	}
 
 	public String getNom() {
@@ -34,20 +36,20 @@ public class Role {
 		this.prenom = prenom;
 	}
 
-	public int getIdSerie() {
-		return idSerie;
+	public List<Serie> getSerie() {
+		return series;
 	}
 
-	public void setIdSerie(int idSerie) {
-		this.idSerie = idSerie;
+	public void getSerie(Serie serie) {
+		series.add(serie);
 	}
 
-	public int getIdActeur() {
-		return idActeur;
+	public Acteur getActeur() {
+		return acteur;
 	}
 
-	public void setIdActeur(int idActeur) {
-		this.idActeur = idActeur;
+	public void setActeur(Acteur acteur) {
+		this.acteur = acteur;
 	}
 
 }
