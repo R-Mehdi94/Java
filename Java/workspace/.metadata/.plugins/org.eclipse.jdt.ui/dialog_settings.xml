@@ -19,8 +19,8 @@
 		<item key="DIALOG_WIDTH" value="627"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
 		<item key="DIALOG_HEIGHT" value="721"/>
-		<item key="DIALOG_X_ORIGIN" value="20"/>
-		<item key="DIALOG_Y_ORIGIN" value="20"/>
+		<item key="DIALOG_X_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
 	</section>
 	<section name="NewClassWizardPage">
 		<item key="create_constructor" value="false"/>
@@ -39,15 +39,15 @@
 		<item key="DIALOG_WIDTH" value="644"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
 		<item key="DIALOG_HEIGHT" value="739"/>
-		<item key="DIALOG_X_ORIGIN" value="20"/>
-		<item key="DIALOG_Y_ORIGIN" value="20"/>
+		<item key="DIALOG_X_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item key="DIALOG_WIDTH" value="564"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
 		<item key="DIALOG_HEIGHT" value="749"/>
-		<item key="DIALOG_X_ORIGIN" value="20"/>
-		<item key="DIALOG_Y_ORIGIN" value="20"/>
+		<item key="DIALOG_X_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
 	</section>
 	<section name="RefactoringWizard.preview">
 		<item key="width" value="600"/>
@@ -95,7 +95,7 @@
 		</section>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="4"/>
+		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="JavaBuildConfigurationBlock">
 		<item key="expanded0" value="true"/>

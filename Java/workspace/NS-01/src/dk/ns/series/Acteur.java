@@ -1,6 +1,7 @@
 package dk.ns.series;
 
 public class Acteur {
+	
 	private int idActeur;
 	private String nom;
 	private String prenom;

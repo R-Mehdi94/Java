@@ -5,12 +5,14 @@ public class Episode {
 	private int numEpisode;
 	private String titre;
 	private int duree;
+	private int numSaison;
 
 	
-	public Episode(int numEpisode, String titre, int duree) {
+	public Episode(int numEpisode, String titre, int duree, int numSaison) {
 		this.numEpisode =numEpisode;
 		this.titre = titre;
 		this.duree = duree;
+		this.numSaison = numSaison;
 	}
 
 	public int getNum() {
@@ -37,9 +39,20 @@ public class Episode {
 		this.duree = duree;
 	}
 
+	
+
 	@Override
 	public String toString() {
-		return "Episode [num=" + numEpisode + ", titre=" + titre + ", duree=" + duree + "]";
+		return "Episode [numEpisode=" + numEpisode + ", titre=" + titre + ", duree=" + duree + ", numSaison="
+				+ numSaison + "]";
+	}
+
+	public int getNumSaison() {
+		return numSaison;
+	}
+
+	public void setNumSaison(int numSaison) {
+		this.numSaison = numSaison;
 	}
 	
 	
